@@ -33,4 +33,5 @@ const nextISSTimesForMyLocation = function() {
       return response;
     });
 }
+
 module.exports = { fetchMyIP, fetchCoordsByIP, fetchISSFlyOverTimes, nextISSTimesForMyLocation };
